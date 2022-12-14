@@ -70,7 +70,7 @@ if (!!window.EventSource) {
 
  source.addEventListener('error', function(e) {
   if (e.target.readyState != EventSource.OPEN) {
-    console.log("Events no active:");
+    console.log("Events not active:");
   }
  }, false);
  
